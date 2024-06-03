@@ -56,3 +56,15 @@
   margin: auto;
   font-size: 18px;
 }
+
+/* Target - the "correct" classname inside of the div with the classname "container"*/
+.container .correct{
+  background: #dffff2;
+  border-color: #00d397;
+}
+
+/* Target - the "wrong" classname inside of the div with the classname "container"*/
+.container .wrong{
+  background: #FFEBEB;
+  border-color: #FF4A4A;
+}
